@@ -29,6 +29,20 @@
 # Prompt工程与数据
 <img width="1024" alt="截屏2023-10-20 下午4 29 36" src="https://github.com/godjealous/haircare/assets/8053085/e1a7f7a2-7807-479d-9913-a61a167bea61">
 
+# 安装运行
+```python
+pip install flask
+python app.py
+using browser to open http://127.0.0.1:5000
+```
+# 数据情况
+1. ``data/QA.{xlsx,jsonl}``包含1294条护发领域专业问答数据
+2. ``data/images_text.{xlsx,jsonl}``包含128条多模态图文数据
+3. ``data/images``包含具体图片数据
+# 提示词工程
+1. ``prompts/agent_prompt.txt`` agent提示词
+2. ``prompts/plan_prompt.txt`` LLM指定护发计划提示词
+
 # 心得体会
 1. 中国的市场太大了，人太多了，需求也很多
 2. “知识的诅咒” 禁锢了我们的大脑
